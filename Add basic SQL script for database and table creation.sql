@@ -1,0 +1,12 @@
+CREATE DATABASE college;
+USE college;
+CREATE TABLE student (
+-- COUMN_NAME DATATYPE CONSTRAINT, 
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL
+);
+INSERT INTO student VALUES(  );
+INSERT INTO student VALUES( 1, 'SHREYA',26 );
+INSERT INTO student VALUES( 2,'shreya',34 );
+SELECT * FROM student;
